@@ -5,8 +5,8 @@ function problem1()
 %some initilization
 frameCnt=75;
 frameFrequency=15;
-inPath='./data/';
-outPath='./P1Output/';
+inPath='data/';
+outPath='P1Output/';
 originalWidth=250
 originalHeight=400;
 targetWidth=400;
