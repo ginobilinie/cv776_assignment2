@@ -1,10 +1,11 @@
-function prob2()
-
+%This function is written to solve the radial distortion problem
+%Dong Nie, dongnie@cs.unc.edu
+function problem2()
 %do some initialization
 inDataPath='../data/';
-inImagePath ='P1Output1/';
+inImagePath ='P1Output/';
 files = dir(fullfile(inImagePath,'*.jpg'));
-outPath ='P2Output1/';
+outPath ='P2Output/';
 originalWidth = 250;
 originalHeight = 400;
 frameCnt = 75;
