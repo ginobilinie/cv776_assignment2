@@ -2,7 +2,7 @@
 %Dong Nie, dongnie@cs.unc.edu
 function problem2()
 %do some initialization
-inDataPath='../data/';
+inDataPath='data/';
 inImagePath ='P1Output/';
 files = dir(fullfile(inImagePath,'*.jpg'));
 outPath ='P2Output/';
